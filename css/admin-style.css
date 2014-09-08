@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body{ background-color:#ffffff; margn:0; padding:0}
+
+/*---------------login style---*/
+#loginform, #forgotpwdform{
+	background-color:#ffffff;
+	position: absolute;
+    top: 38%;
+    left: 42%;
+	padding:20px;
+    max-width: 300px;
+    border:1px solid #f1f1f1;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	-o-border-radius:3px;
+	box-shadow:0 1px 10px #cccccc;
+	-moz-box-shadow:0 1px 10px #cccccc;
+	-webkit-box-shadow:0 1px 10px #cccccc;
+	-o-box-shadow:0 1px 10px #cccccc;}
+	.login-username, .login-password, .login-email{margin:0 0 10px 0;}
+	#loginform label, .login-email label{width:118px; display:inline-block; font:normal 14px Arial, Helvetica, sans-serif; color:#494949}
+	#loginform input, .login-email input{padding:5px 10px}
+	.login-links{text-align:right}
+	.login-links a{font:normal 12px Arial, Helvetica, sans-serif; text-decoration:none;	color:#a0a0a0}
+	.login-links a:hover{text-decoration: underline; color:#000}
+	.action-button{float:right; margin:10px 0 0 0}
+	.form-error{font:normal 12px Arial, Helvetica, sans-serif; color:#e53d3d; text-align:right}
